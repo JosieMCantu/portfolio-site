@@ -6,6 +6,7 @@ function App() {
     <div className='main-container'>
       <div className='header-container'>
         <div className='header'>
+          <p>Josie M. Cantu</p>
         ✻ This site is under construction. ✻
         </div>
       </div>
