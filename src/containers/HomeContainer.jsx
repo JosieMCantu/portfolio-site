@@ -1,10 +1,13 @@
-import React from 'react'
+import React from 'react';
+import notice from '../assets/coming-soon.png';
 
-function About() {
+
+function HomeContainer() {
     return (
         <div className='home-first'>
             <div className='home-second'>
                 <div className='home-third'>
+                    <img src={notice} alt='notice'/>
                     
                 </div>
             </div>
@@ -12,4 +15,4 @@ function About() {
     )
 }
 
-export default About
+export default HomeContainer

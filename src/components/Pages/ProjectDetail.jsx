@@ -1,9 +1,14 @@
 import React from 'react'
 
-function ProjectDetail() {
+function ProjectDetail({ name, link, description, stack, github, deployed }) {
     return (
-        <div>
-            <h1>Project detail</h1>
+        <div className='project-detail'>
+            <img src={link} alt='Project' />
+            <h1>{name}</h1>
+            <p>{stack}</p>
+            <p>{description}</p>
+            <p>{github}</p>
+            <p>{deployed}</p>
         </div>
     )
 }

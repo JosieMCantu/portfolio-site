@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Montserrat&display=swap');
 /* 
 Orange #FF1616
 Blue #3E6B89
@@ -11,36 +11,93 @@ body, html {
   margin: 0;
   background-color: #F5F5F5;
 }
-.main-container {
-  /* padding-top: 20%; */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+a {
+  text-decoration: none;
+}
+.navbar-first {
+  position: fixed;
+  top: 0;
+  background-color: #F5F5F5;
+  height: 5%;
   width: 100%;
-  height: 100%;
+  font-family: 'Hammersmith One', sans-serif;
+  box-shadow: 1px 5px 15px #121212;
+}
+.navbar-first a {
+  color: black;
+  font-size: 1.25vw;
+}
+.navbar-first a:hover {
+  text-decoration: underline;
 }
 ul {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: space-around;
   list-style-type: none;
-  /* border: 1px solid black; */
-  margin: 0;
-  padding: 0;
-  height: 40px;
-  width: 100%;
 }
-.header-container {
+img {
+  height: 600px;
+  width: auto;
+}
+.home-first {
   display: flex;
-  height: 400px;
+  justify-content: center;
+  margin-top: 50px;
   width: 100%;
+  overflow: auto;
   justify-content: center;
   align-items: center;
-  /* border: 1px solid black; */
-}
-.header {
-  height: 10%;
-  width: 40%;
-  text-align: center;
   font-family: 'Montserrat', sans-serif;
-  /* border: 1px solid black; */
+  background-color:#F5F5F5;
+}
+.home-second {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  width: 75%;
+  background-color: #F5F5F5;
+}
+.home-third {
+  display: flex;
+  justify-content: center;
+  width: 65%;
+  background-color: #F5F5F5;
+}
+
+.project-first {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color:#F5F5F5;
+}
+.project-second {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  width: 75%;
+  background-color: #F5F5F5;
+}
+.project-third {
+  width: 65%;
+  background-color: #F5F5F5;
+}
+.project-detail img {
+  height: 200px;
+  width: auto;
+}
+
+.footer-first {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 5%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #F5F5F5;
+  font-family: 'Hammersmith One', sans-serif;
 }

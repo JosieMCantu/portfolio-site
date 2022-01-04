@@ -2,8 +2,8 @@ import React from 'react'
 
 function Footer() {
     return (
-        <div>
-            <h1>Footer</h1>
+        <div className='footer-first'>
+            <p>&copy; Josie M. Cantu 2022</p>
         </div>
     )
 }
