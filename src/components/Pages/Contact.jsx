@@ -5,9 +5,7 @@ function Contact() {
         <div className='home-first'>
             <div className='home-second'>
                 <div className='home-third'>
-                    {/* <form>
-                        <input/>
-                    </form> */}
+                    <h1>Coming Soon!</h1>
                 </div>
             </div>
         </div>

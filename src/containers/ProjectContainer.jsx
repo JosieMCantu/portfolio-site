@@ -7,17 +7,19 @@ function ProjectContainer() {
         <div className='project-first'>
             <div className='project-second'>
                 <div className='project-third'>
+                    <h1>Selected Projects</h1>
                     <ul>
                     {projects.map((project) => (
-                    <li key={project.id}><ProjectDetail 
-                    key={project.id}
-                    link={project.link}
-                    name={project.name}
-                    stack={project.stack}
-                    description={project.description}
-                    github={project.github}
-                    deployed={project.deployed} />
-                    </li>
+                        <li key={project.id}>
+                            <ProjectDetail 
+                            key={project.id}
+                            img={project.img}
+                            name={project.name}
+                            stack={project.stack}
+                            description={project.description}
+                            github={project.github}
+                            deployed={project.deployed} />
+                        </li>
                     ))}
                     </ul>
                 </div>

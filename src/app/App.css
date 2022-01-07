@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Montserrat:wght@400;600;700&display=swap');
 /* 
 Orange #FF1616
 Blue #3E6B89
 Background #F5F5F5
+Rhone Grey rgb(210, 207, 207)
 */
 
 body, html {
@@ -14,42 +15,54 @@ body, html {
 a {
   text-decoration: none;
 }
+.title {
+  font-size: x-large;
+  font-weight: bolder;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 500%;
+  font-weight: bolder;
+  color: black;
+  margin: 0;
+}
 .navbar-first {
   position: fixed;
   top: 0;
-  background-color: #F5F5F5;
+  background-color: black;
   height: 5%;
   width: 100%;
   font-family: 'Hammersmith One', sans-serif;
-  box-shadow: 1px 5px 15px #121212;
+  font-size: medium;
+  box-shadow: 1px 5px 15px #28282B;
 }
 .navbar-first a {
-  color: black;
-  font-size: 1.25vw;
+  color: #F5F5F5;
 }
 .navbar-first a:hover {
-  text-decoration: underline;
+  font-size: 110%;
+  color: #FF1616;
 }
-ul {
+.navbar-first ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   list-style-type: none;
 }
-img {
-  height: 600px;
-  width: auto;
-}
+
+
 .home-first {
   display: flex;
   justify-content: center;
   margin-top: 50px;
   width: 100%;
   overflow: auto;
-  justify-content: center;
   align-items: center;
   font-family: 'Montserrat', sans-serif;
-  background-color:#F5F5F5;
+  color: #3E6B89;
 }
 .home-second {
   margin-top: 100px;
@@ -58,46 +71,117 @@ img {
   display: flex;
   justify-content: center;
   width: 75%;
-  background-color: #F5F5F5;
 }
 .home-third {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  width: 65%;
-  background-color: #F5F5F5;
+  align-items: center;
+  width: 75%;
+  /* background-color: pink; */
+}
+.home-third ul {
+  display: flex;
+  list-style-type: none;
+  /* background-color: lightblue; */
+}
+.home-words {
+  padding-bottom: 150px;
 }
 
+.about-third img {
+  width: 50%;
+  border: 10px solid black;
+}
+
+
+
+.techstack-first {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 20px;
+  margin: 20px;
+  /* box-shadow: 10px 5px 25px #DF1313; */
+  border: 5px solid black;
+}
+.techstack-first ul {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 0;
+  list-style-type: none;
+  color: #3E6B89;
+  margin: 10px;
+}
+.techstack-first ul > :first-child {
+  font-size: large;
+  font-weight: bolder;
+}
+
+
 .project-first {
+  padding-top: 100px;
+  padding-bottom: 100px;
   display: flex;
   justify-content: center;
   width: 100%;
-  background-color:#F5F5F5;
+  height: 100%;
+  overflow: auto;
+  align-items: center;
+  background-color: #F5F5F5;
+  font-family: 'Montserrat', sans-serif;
 }
 .project-second {
-  margin-top: 100px;
-  margin-bottom: 100px;
+  text-align: center;
   display: flex;
   justify-content: center;
   width: 75%;
-  background-color: #F5F5F5;
 }
 .project-third {
-  width: 65%;
-  background-color: #F5F5F5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
 }
-.project-detail img {
-  height: 200px;
-  width: auto;
+.project-third ul {
+  width: 100%;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+.project-third li {
+  margin-top: 150px;
+}
+.project-third img {
+  height: auto;
+  width: 100%;
+  border: 10px solid black;
 }
 
+
 .footer-first {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  height: 5%;
-  width: 100%;
   display: flex;
   justify-content: center;
-  background-color: #F5F5F5;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  height: 5%;
+  width: 100%;
+  color: #F5F5F5;
+  background-color: black;
   font-family: 'Hammersmith One', sans-serif;
+  box-shadow: 1px 5px 15px #28282B;
+}
+.footer-first ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  /* background-color: pink; */
+}
+.footer-first img {
+  margin-top: 10px;
+  height: 25%;
 }

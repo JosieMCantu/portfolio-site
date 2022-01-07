@@ -6,11 +6,11 @@ function Navbar() {
     return (
         <nav className='navbar-first'>
             <ul>
-                <li><Link to="/">✩Josie M. Cantu✩</Link></li>
-                <li><Link to="/about">About</Link></li>
-                <li><Link to="/projects">Projects</Link></li>
-                <li><Link to="/contact">Contact</Link></li>
-                <li><Link target={'_blank'} to="/resume.pdf">Resume</Link></li>
+                <li><Link to="/">✧ Home ✧</Link></li>
+                <li><Link to="/about">✧ About ✧</Link></li>
+                <li><Link to="/projects">✧ Projects ✧</Link></li>
+                <li><Link to="/contact">✧ Contact ✧</Link></li>
+                <li><Link target={'_blank'} to="/resume.pdf">✧ Resume ✧</Link></li>
             </ul>
         </nav>
     )
