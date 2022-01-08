@@ -9,13 +9,13 @@ function Footer() {
         <div className='footer-first'>
             <div>
                 <ul>
-                    <li><a href='https://github.com/JosieMCantu' target='_blank'>
+                    <li><a href='https://github.com/JosieMCantu' target='_blank' rel="noopener noreferrer">
                         <li>GITHUB</li><img src={github} alt='Github' /></a></li>
-                    <li><a href='https://www.linkedin.com/in/josiemcantu/' target='_blank'>
+                    <li><a href='https://www.linkedin.com/in/josiemcantu/' target='_blank' rel="noopener noreferrer">
                         <li>LINKEDIN</li><img src={linkedin} alt='LinkedIn' /></a></li>
-                    <li><a href='https://twitter.com/josiemcantu' target='_blank'>
+                    <li><a href='https://twitter.com/josiemcantu' target='_blank' rel="noopener noreferrer">
                         <li>TWITTER</li><img src={twitter} alt='Twitter' /></a></li>
-                    <li><a href='mailto:josiex2@gmail.com?subject=Hi%20Josie!' target='_blank'>
+                    <li><a href='mailto:josiex2@gmail.com?subject=Hi%20Josie!' target='_blank' rel="noopener noreferrer">
                         <li>EMAIL</li><img src={email} alt='Email' /></a></li>
                 </ul>
             </div>
