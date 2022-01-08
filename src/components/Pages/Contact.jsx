@@ -27,10 +27,10 @@ function Contact() {
                         <lil><img src={palette} alt='Palette' /></lil>
                     </ul>
                     <div className='connect-links'>
-                        <p>LinkedIn: <a href='https://www.linkedin.com/in/josiemcantu/' target='_blank'>/in/josiemcantu</a></p>
-                        <p>Github: <a href='https://github.com/JosieMCantu' target='_blank'>/JosieMCantu</a></p>
-                        <p>Twitter: <a href='https://twitter.com/josiemcantu' target='_blank'>@josiemcantu</a></p>
-                        <p>Email: <a href='mailto:josiex2@gmail.com?subject=Hi%20Josie!' target='_blank'>josiex2@gmail.com</a></p>
+                        <p>LinkedIn: <a href='https://www.linkedin.com/in/josiemcantu/' target='_blank' rel="noopener noreferrer">/in/josiemcantu</a></p>
+                        <p>Github: <a href='https://github.com/JosieMCantu' target='_blank' rel="noopener noreferrer">/JosieMCantu</a></p>
+                        <p>Twitter: <a href='https://twitter.com/josiemcantu' target='_blank' rel="noopener noreferrer">@josiemcantu</a></p>
+                        <p>Email: <a href='mailto:josiex2@gmail.com?subject=Hi%20Josie!' target='_blank' rel="noopener noreferrer">josiex2@gmail.com</a></p>
                     </div>
                 </div>
             </div>

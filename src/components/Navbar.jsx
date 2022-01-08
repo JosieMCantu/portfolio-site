@@ -10,7 +10,7 @@ function Navbar() {
                 <li><Link to="/about">✧ About ✧</Link></li>
                 <li><Link to="/projects">✧ Projects ✧</Link></li>
                 <li><Link to="/contact">✧ Connect ✧</Link></li>
-                <li><Link target={'_blank'} to="/resume.pdf">✧ Resume ✧</Link></li>
+                <li><Link target={'_blank'} rel="noopener noreferrer" to="/resume.pdf">✧ Resume ✧</Link></li>
             </ul>
         </nav>
     )
