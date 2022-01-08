@@ -19,7 +19,7 @@ function HomeContainer() {
                 <div className='home-third'>
                     <h1>Josie M. Cantu</h1>
                     <h2>SOFTWARE ENGINEER</h2>
-                    <ul>
+                    <ul className='icons'>
                         <li><img src={dog} alt='dog' /></li>
                         <li><img src={laptop} alt='laptop' /></li>
                         <li><img src={curly} alt='Curly Braces' /></li>
@@ -30,13 +30,11 @@ function HomeContainer() {
                         <li><img src={raincloud} alt='Rain Cloud' /></li>
                         <li><img src={node} alt='NodeJS' /></li>
                         <li><img src={react} alt='React' /></li>
-                        {/* <li><img src={dog} alt='dog' /></li>
-                        <li><img src={dog} alt='dog' /></li> */}
                     </ul>
-
+                    
                     <p className='home-words'>I enjoy working on diverse teams that involve both peer programming and individual contributions. My specialties include learning new frameworks, problem solving and design principles in HTML, CSS and JavaScript.</p>
-
-                    <p className='title'>✧ Tech Stack ✧</p>
+                    
+                    <h2>✧ Tech Stack ✧</h2>
 
                     <div className='techstack-first'>
                     <TechStack title='Languages' first='PHP' second='JavaScript' third='HTML' fourth='CSS' />
