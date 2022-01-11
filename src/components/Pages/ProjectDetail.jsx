@@ -7,7 +7,7 @@ function ProjectDetail({ name, img, description, stack, github, deployed }) {
             <h1>{name}</h1>
             <p>{stack}</p>
             <p>{description}</p>
-            <p><a href={github}>Github</a> | <a href={deployed}>Deployed</a></p>
+            <p><a href={github}>✧ Github ✧</a> | <a href={deployed}>✧ Deployed ✧</a></p>
         </div>
     )
 }
