@@ -18,7 +18,7 @@ function HomeContainer() {
             <div className='home-second'>
                 <div className='home-third'>
                     <h1>Josie M. Cantu</h1>
-                    <h2>SOFTWARE ENGINEER</h2>
+                    <h2>FULLSTACK SOFTWARE ENGINEER</h2>
                     <ul className='icons'>
                         <li><img src={dog} alt='dog' /></li>
                         <li><img src={laptop} alt='laptop' /></li>
@@ -37,9 +37,9 @@ function HomeContainer() {
                     <h2>✧ Tech Stack ✧</h2>
 
                     <div className='techstack-first'>
-                    <TechStack title='Languages' first='PHP' second='JavaScript' third='HTML' fourth='CSS' />
-                    <TechStack title='Frameworks' first='React' second='Node' third='Express' fourth='GraphQL' />
-                    <TechStack title='Backend' first='PostgreSQL' second='Django' third='ORM' fourth='Python' />
+                    <TechStack title='Languages' first='PHP' second='JavaScript' third='HTML' fourth='CSS'  />
+                    <TechStack title='Frameworks' first='React' second='React Native' third='Express' fourth='GraphQL' />
+                    <TechStack title='Backend' first='PostgreSQL' second='NodeJS' third='DJango' fourth='Python' />
                     <TechStack title='Dev Tools' first='Postman' second='PgAdmin' third='Heroku' fourth='Netlify' />
                     <TechStack title='Testing' first='Jest' second='QUnit' third='React Testing Library' />
                     <TechStack title='Other Skills' first='Github' second='Slack' third='AWS S3' fourth='XCode' />

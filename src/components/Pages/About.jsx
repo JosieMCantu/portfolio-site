@@ -26,13 +26,11 @@ function About() {
                     
                     <p className='home-words'>Hello! My name is Josie Cantu and I'm a Fullstack Software Engineer based in beautiful Portland, Oregon. </p><img src={star} alt='Star' />
                     <p className='home-words'>I have a positive outlook and a broad skillset. I feel strongly that every business, from tech to food service, is made better with an inclusive and diverse array of perspectives and backgrounds.</p><img src={star} alt='Star' />
-                    <ul className='oneliners'>
-                        <li>I'm a team builder and flexible problem solver.</li>
-                        <li>I'm a communicative collaborator thriving in both team and solo environments.</li>
-                        <li>I hope to enrich people's lives with design forward technology that is utilitarian at its core.</li>
-                        <li>I believe it's our duty to support the voices of marginalized people, that Black lives matter, and that the internet should be accessible for everyone.</li>
-                        <li>When I'm not coding, I like to go in search of amazing restaurants and fancy cocktails, go out dancing and traverse my hometown of Portland, OR. I'll try anything once!</li>
-                    </ul>
+                    <p className='home-words'>I believe it's my responsibility to use my skills to amplify the voices of marginalized populations and to make the internet accessible to everyone.</p>
+                    <img src={star} alt='Star' />
+                    <p className='home-words'>I'm a team builder and flexible problem solver. I'm a communicative collaborator thriving in both team and solo environments. </p>
+                    <img src={star} alt='Star' />
+                    <p className='home-words'>When I'm not coding, I like to go in search of amazing restaurants and fancy cocktails, go out dancing and explore my hometown of Portland, OR.</p>
                 </div>
             </div>
         </div>
