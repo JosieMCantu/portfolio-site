@@ -8,14 +8,14 @@ import save from '../../assets/save.png';
 import spa from '../../assets/spa.png';
 import star from '../../assets/star.png';
 
-function About() {
+function About({ isMobile }) {
     return (
         <div className='about-first'>
             <div className='about-second'>
                 <div className='about-third'>
-                    <img src={jmc} alt='Josie M. Cantu' className='self' />
+                    <img src={jmc} alt='Josie M. Cantu' className={isMobile ? 'self' : 'selfmobile'} />
                     
-                    <ul className='icons'>
+                    <ul className={isMobile ? 'icons' : 'icons-mobile'}>
                         <li><img src={pencil} alt='Pencil' /></li>
                         <li><img src={pin} alt='Pin' /></li>
                         <li><img src={plane} alt='Plane' /></li>

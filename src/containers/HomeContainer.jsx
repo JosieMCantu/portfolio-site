@@ -12,14 +12,14 @@ import raincloud from '../assets/raincloud.png';
 import moon from '../assets/moon.png';
 
 
-function HomeContainer() {
+function HomeContainer({ isMobile }) {
     return (
         <div className='home-first'>
             <div className='home-second'>
                 <div className='home-third'>
-                    <h1>Josie M. Cantu</h1>
-                    <h2>FULLSTACK SOFTWARE ENGINEER</h2>
-                    <ul className='icons'>
+                    <h1 className={isMobile ? 'h1' : 'h1-mobile'}>Josie M. Cantu</h1>
+                    <h2 className={isMobile ? 'h2' : 'h2-mobile'}>FULLSTACK SOFTWARE ENGINEER</h2>
+                    <ul className={isMobile ? 'icons' : 'icons-mobile'}>
                         <li><img src={dog} alt='dog' /></li>
                         <li><img src={laptop} alt='laptop' /></li>
                         <li><img src={curly} alt='Curly Braces' /></li>
@@ -32,9 +32,9 @@ function HomeContainer() {
                         <li><img src={react} alt='React' /></li>
                     </ul>
                     
-                    <p className='home-words'>I enjoy working on diverse teams that involve both peer programming and individual contributions. My specialties include learning new frameworks, problem solving and design principles in HTML, CSS and JavaScript.</p>
+                    <p className={isMobile ? 'home-words' : 'home-words-mobile'}>I enjoy working on diverse teams that involve both peer programming and individual contributions. My specialties include learning new frameworks, problem solving and design principles in HTML, CSS and JavaScript.</p>
                     
-                    <h2>✧ Tech Stack ✧</h2>
+                    <h2 className={isMobile ? 'h2' : 'h2-mobile'}>✧ Tech Stack ✧</h2>
 
                     <div className='techstack-first'>
                     <TechStack title='Languages' first='PHP' second='JavaScript' third='HTML' fourth='CSS'  />

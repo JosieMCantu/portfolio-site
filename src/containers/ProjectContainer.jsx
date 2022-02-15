@@ -13,14 +13,14 @@ import palette from '../assets/palette.png';
 import paperplane from '../assets/paper-plane.png';
 
 
-function ProjectContainer() {
+function ProjectContainer({ isMobile }) {
     return (
         <div className='project-first'>
             <div className='project-second'>
                 <div className='project-third'>
-                    <h1>Selected Projects</h1>
+                    <h1 className={isMobile ? 'h1' : 'h1-mobile'}>Selected Projects</h1>
     
-                    <ul className='icons'>
+                    <ul className={isMobile ? 'icons' : 'icons-mobile'}>
                         <li><img src={happy} alt='Happy' /></li>
                         <li><img src={buildings} alt='Buildings' /></li>
                         <li><img src={bullseye} alt='Bullseye' /></li>
@@ -43,7 +43,8 @@ function ProjectContainer() {
                             stack={project.stack}
                             description={project.description}
                             github={project.github}
-                            deployed={project.deployed} />
+                            deployed={project.deployed}
+                            isMobile={isMobile} />
                         </li>
                     ))}
                     </ul>
