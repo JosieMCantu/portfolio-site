@@ -1,1 +1,1 @@
-# This site is a portfolio site for Josie M. Cantu
+# This is a portfolio site for Josie M. Cantu

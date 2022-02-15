@@ -332,13 +332,13 @@ a {
   height: 200px;
   position: absolute;
   padding: 0;
-  top: 50px;
+  top: 40px;
   left: -100%;
   opacity: 0;
   transition: all 0.5s ease;
   flex-direction: column;
   list-style-type: none;
-  border: 1px solid green;
+  /* border: 1px solid green; */
 }
 .menu-options li {
   display: flex;
@@ -346,7 +346,7 @@ a {
   font-size: x-large;
   height: 100%;
   width: 100%;
-  background-color: red;
+  background-color: black;
 }
 .menu-options.active {
   background-color: black;
@@ -354,7 +354,7 @@ a {
   opacity: 1;
   transition: all 0.5s ease;
   z-index: 1;
-  border: 1px solid pink;
+  /* border: 1px solid pink; */
 }
 .navbarmobile a {
   color: whitesmoke;
