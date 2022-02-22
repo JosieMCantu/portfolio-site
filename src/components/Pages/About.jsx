@@ -1,5 +1,5 @@
 import React from 'react';
-import jmc from '../../assets/josie.png';
+import jmc from '../../assets/josie.jpeg';
 import pencil from '../../assets/pencil.png';
 import pin from '../../assets/pin.png';
 import plane from '../../assets/plane.png';
@@ -13,6 +13,7 @@ function About({ isMobile }) {
         <div className='about-first'>
             <div className='about-second'>
                 <div className='about-third'>
+                    
                     <img src={jmc} alt='Josie M. Cantu' className={isMobile ? 'self' : 'selfmobile'} />
                     
                     <ul className={isMobile ? 'icons' : 'icons-mobile'}>

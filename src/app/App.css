@@ -104,8 +104,9 @@ a {
   border: 5px solid black;
 }
 .self {
-  width: 50%;
+  width: 75%;
   border: 10px solid black;
+  border-radius: 50%;
 }
 
 .connect-first {
