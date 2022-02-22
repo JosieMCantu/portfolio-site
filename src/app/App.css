@@ -395,8 +395,9 @@ a {
   margin: 0;
 }
 .selfmobile {
-  width: 85%;
+  width: 90%;
   border: 10px solid black;
+  border-radius: 50%;
 }
 .projects-mobile a {
   color: #FF1616;
