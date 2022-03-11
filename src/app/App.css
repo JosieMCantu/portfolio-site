@@ -23,7 +23,7 @@ a {
   margin: 0;
 }
 .h2 {
-  color: #FF1616;
+  color: #e20000;
   padding: 10px 10px 0px 10px;
   margin: 0;
 }
@@ -104,11 +104,12 @@ a {
   border: 5px solid black;
 }
 .self {
-  width: 75%;
-  border: 10px solid black;
+  width: 50%;
+  border: 7px solid #FF1616;
   border-radius: 50%;
+  outline: 25px solid black;
+  margin-bottom: 30px;
 }
-
 .connect-first {
   display: flex;
   justify-content: center;
@@ -396,8 +397,10 @@ a {
 }
 .selfmobile {
   width: 90%;
-  border: 10px solid black;
+  border: 7px solid #FF1616;
   border-radius: 50%;
+  outline: 25px solid black;
+  margin-bottom: 30px;
 }
 .projects-mobile a {
   color: #FF1616;
