@@ -1,5 +1,5 @@
 import React from 'react';
-import jmc from '../../assets/josie1.jpeg';
+import jmc from '../../assets/newestme2.png';
 import pencil from '../../assets/pencil.png';
 import pin from '../../assets/pin.png';
 import plane from '../../assets/plane.png';

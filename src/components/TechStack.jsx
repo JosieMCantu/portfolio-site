@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 
-function TechStack({ title, first, second, third, fourth, fifth }) {
+function TechStack({ title, first, second, third, fourth, fifth, sixth, seventh }) {
     return (
         <div>
             <ul>
@@ -10,9 +10,11 @@ function TechStack({ title, first, second, third, fourth, fifth }) {
                 <li>{third}</li>
                 <li>{fourth}</li>
                 <li>{fifth}</li>
+                <li>{sixth}</li>
+                <li>{seventh}</li>
             </ul>
         </div>
     )
 }
 
-export default TechStack
+export default TechStack;

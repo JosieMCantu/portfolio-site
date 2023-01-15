@@ -101,13 +101,13 @@ a {
   width: 60%;
   padding: 20px;
   margin: 20px;
-  border: 5px solid black;
+  border: px solid black;
 }
 .self {
   width: 50%;
-  border: 7px solid #FF1616;
+  border: 7px solid black;
   border-radius: 50%;
-  outline: 25px solid black;
+  outline: 10px solid black;
   margin-bottom: 30px;
 }
 .connect-first {
@@ -273,8 +273,7 @@ a {
   color: #F5F5F5;
 }
 .navbar-first a:hover {
-  font-size: 110%;
-  color: #F5F5F5;
+  color: #FF1616;
 }
 .navbar-first ul {
   display: flex;

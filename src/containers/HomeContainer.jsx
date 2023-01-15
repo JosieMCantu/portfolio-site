@@ -37,8 +37,8 @@ function HomeContainer({ isMobile }) {
                     <h2 className={isMobile ? 'h2' : 'h2-mobile'}>✧ Tech Stack ✧</h2>
 
                     <div className='techstack-first'>
-                    <TechStack title='Languages' first='PHP' second='JavaScript' third='HTML' fourth='CSS'  />
-                    <TechStack title='Frameworks' first='React' second='React Native' third='Express' fourth='GraphQL' />
+                    <TechStack title='Languages' first='PHP' second='JavaScript' third='HTML' fourth='CSS' fifth='JAVA' sixth='Ruby'  />
+                    <TechStack title='Frameworks' first='React' second='React Native' third='Express' fourth='GraphQL' fifth='Ruby on Rails' />
                     <TechStack title='Backend' first='PostgreSQL' second='NodeJS' third='DJango' fourth='Python' />
                     <TechStack title='Dev Tools' first='Postman' second='PgAdmin' third='Heroku' fourth='Netlify' />
                     <TechStack title='Testing' first='Jest' second='QUnit' third='React Testing Library' />
@@ -50,4 +50,4 @@ function HomeContainer({ isMobile }) {
     )
 }
 
-export default HomeContainer
+export default HomeContainer;
