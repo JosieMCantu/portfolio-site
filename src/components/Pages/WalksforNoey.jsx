@@ -4,7 +4,7 @@ import './WalkforNoey.css';
 
 
 function WalksforNoey() {
-  const [ day, setDay ] = useState(new Date(2023, 1, 1));
+  const [ day ] = useState(new Date(2023, 1, 1));
   const [ dayArray, setDayArray ] = useState([]);
   const [ disabledDay, setDisabledDay ] = useState([]);
 
