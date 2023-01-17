@@ -9,6 +9,7 @@ import ProjectContainer from '../containers/ProjectContainer';
 import About from '../components/Pages/About';
 import Contact from '../components/Pages/Contact';
 import FooterMobile from '../components/FooterMobile';
+import WalksforNoey from '../components/Pages/WalksforNoey';
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
           <Route path="/about" element={<About isMobile={isMobileDevice} />} />
           <Route path="/contact" element={<Contact isMobile={isMobileDevice} />} />
           <Route path="/projects" element={<ProjectContainer isMobile={isMobileDevice} />} />
+          <Route path="/walksfornoey" element={<WalksforNoey isMobile={isMobileDevice} />} />
         </Routes>
       {/* <Footer /> */}
       {isMobileDevice ? <Footer /> : <FooterMobile />}

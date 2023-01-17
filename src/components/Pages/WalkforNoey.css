@@ -1,0 +1,62 @@
+html,
+body {
+  height: 110%;
+  margin: 0;
+  font-family: monospace;
+}
+ul {
+  padding: 0px;
+  list-style-type: none;
+  /* border: 1px solid rgb(137, 153, 168); */
+}
+.react-calendar__navigation {
+  display: flex;
+  margin-bottom: 5em;
+}
+.react-calendar__month-view__weekdays {
+  text-align: center;
+}
+.container input,
+.container button {
+  height: 50px;
+  background-color: rgb(192, 208, 224);
+  border: 1px solid rgb(137, 153, 168);
+}
+.container button:hover {
+  background-color: aliceblue;
+}
+.container header {
+  display: flex;
+  justify-content: center;
+  background-color: #323639;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  padding-top: 50px;
+  color: whitesmoke;
+  margin-top: 50px;
+}
+.container header h1 {
+  margin: 10px;
+}
+.calendar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px 0;
+  padding: 10px;
+  /* border: 2px solid red; */
+}
+.calendar-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+  padding: 0px;
+  /* border: 2px solid green; */
+}
+.calendar-container .react-calendar {
+  padding: 10px;
+  /* border: 2px solid violet; */
+}

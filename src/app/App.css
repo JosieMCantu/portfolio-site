@@ -15,6 +15,15 @@ body, html {
 a {
   text-decoration: none;
 }
+
+.walks {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
 .h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 500%;
@@ -203,7 +212,7 @@ a {
   padding: 0;
 }
 .projects li {
-  margin-top: 125px;
+  margin-top: 50px;
 }
 .projects img {
   height: auto;
