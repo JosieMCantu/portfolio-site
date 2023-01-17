@@ -414,3 +414,6 @@ a {
   color: #FF1616;
   font-size: small;
 }
+.home-font a {
+  color: whitesmoke;
+}

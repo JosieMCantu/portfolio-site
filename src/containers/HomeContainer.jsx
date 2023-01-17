@@ -1,5 +1,5 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import TechStack from '../components/TechStack';
 import dog from '../assets/dog.png';
 import laptop from '../assets/laptop.png';
@@ -18,7 +18,6 @@ function HomeContainer({ isMobile }) {
         <div className='home-first'>
             <div className='home-second'>
                 <div className='home-third'>
-                    {/* <h4 className='walks'><Link to="/walksfornoey">Walks for Noey</Link></h4> */}
                     <h1 className={isMobile ? 'h1' : 'h1-mobile'}>Josie M. Cantu</h1>
                     <h2 className={isMobile ? 'h2' : 'h2-mobile'}>FULLSTACK SOFTWARE ENGINEER</h2>
                     <ul className={isMobile ? 'icons' : 'icons-mobile'}>
@@ -46,8 +45,10 @@ function HomeContainer({ isMobile }) {
                     <TechStack title='Testing' first='Jest' second='QUnit' third='React Testing Library' />
                     <TechStack title='Other Skills' first='Github' second='Slack' third='AWS S3' fourth='XCode' />
                     </div>
+                    <h4 className='home-font'><Link to="/walksfornoey">Walks for Noey</Link></h4>
                 </div>
             </div>
+            
         </div>
     )
 }
