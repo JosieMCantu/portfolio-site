@@ -405,9 +405,8 @@ a {
 }
 .selfmobile {
   width: 90%;
-  border: 7px solid #FF1616;
   border-radius: 50%;
-  outline: 25px solid black;
+  border: 7px solid black;
   margin-bottom: 30px;
 }
 .projects-mobile a {
